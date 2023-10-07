@@ -8,5 +8,5 @@
 
 
 ### Screen-shots
-![Source-code-with-JUnit] (https://raw.githubusercontent.com/shellingford-03/math-util-mvn/main/screenshots/Source-code-with-JUnit.png)
+![Source-code-with-JUnit] (https://github.com/shellingford-03/math-util-mvn/blob/760d10d594d9ee9bc946a04789fe3b0adc264376/screenshots/Source-code-with-JUnit.png)
 #### Copyright Ⓒ 2023 TanHin 
