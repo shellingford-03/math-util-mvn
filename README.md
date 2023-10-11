@@ -1,3 +1,4 @@
+[![Math-Utility Project applying](https://github.com/shellingford-03/math-util-mvn/actions/workflows/mathutil-ci.yml/badge.svg)](https://github.com/shellingford-03/math-util-mvn/actions/workflows/mathutil-ci.yml)
 ### Welcome to math-util-mvn Repository
 
 #### You wil find in this repo the following stuff:
