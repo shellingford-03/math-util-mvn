@@ -25,7 +25,7 @@ public class MathUtility {
         //0! = 1! = 1
         
         public static long getFactorial(int n){
-            long result = 1;
+            long result = 10;
                     
             if (n <0 || n >20)
                 throw new IllegalArgumentException("error");
