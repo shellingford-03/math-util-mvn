@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.tanhin.mathutil.core.MathUtilityTest" time="0.05" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.tanhin.mathutil.core.MathUtilityDDTest" time="0.109" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,9 +15,9 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\TANHIN\AppData\Local\Temp\surefire15195719991672240296\surefirebooter-20231014165810865_3.jar C:\Users\TANHIN\AppData\Local\Temp\surefire15195719991672240296 2023-10-14T16-58-10_753-jvmRun1 surefire-20231014165810865_1tmp surefire_0-20231014165810865_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\TANHIN\AppData\Local\Temp\surefire12492138800555912585\surefirebooter-20231014173105553_3.jar C:\Users\TANHIN\AppData\Local\Temp\surefire12492138800555912585 2023-10-14T17-31-05_442-jvmRun1 surefire-20231014173105553_1tmp surefire_0-20231014173105553_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="com.tanhin.mathutil.core.MathUtilityTest"/>
+    <property name="test" value="com.tanhin.mathutil.core.MathUtilityDDTest"/>
     <property name="surefire.test.class.path" value="D:\study\fall2023\swt301\math-util-mvn\target\test-classes;D:\study\fall2023\swt301\math-util-mvn\target\classes;C:\Users\TANHIN\.m2\repository\com\microsoft\sqlserver\mssql-jdbc\12.3.0.jre20-preview\mssql-jdbc-12.3.0.jre20-preview.jar;C:\Users\TANHIN\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\TANHIN\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\TANHIN\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\TANHIN\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\TANHIN\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\TANHIN\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\TANHIN\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\TANHIN\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\TANHIN"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\TANHIN\AppData\Local\Temp\surefire15195719991672240296\surefirebooter-20231014165810865_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\TANHIN\AppData\Local\Temp\surefire12492138800555912585\surefirebooter-20231014173105553_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21+35-LTS-2513"/>
@@ -60,5 +60,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testFactorial" classname="com.tanhin.mathutil.core.MathUtilityTest" time="0.03"/>
+  <testcase name="verifiFactorialGivenRightArgumentReturnsOk(int, long)[1]" classname="com.tanhin.mathutil.core.MathUtilityDDTest" time="0.049"/>
+  <testcase name="verifiFactorialGivenRightArgumentReturnsOk(int, long)[2]" classname="com.tanhin.mathutil.core.MathUtilityDDTest" time="0.001"/>
+  <testcase name="verifiFactorialGivenRightArgumentReturnsOk(int, long)[3]" classname="com.tanhin.mathutil.core.MathUtilityDDTest" time="0.001"/>
+  <testcase name="verifiFactorialGivenRightArgumentReturnsOk(int, long)[4]" classname="com.tanhin.mathutil.core.MathUtilityDDTest" time="0.0"/>
+  <testcase name="verifiFactorialGivenRightArgumentReturnsOk(int, long)[5]" classname="com.tanhin.mathutil.core.MathUtilityDDTest" time="0.001"/>
 </testsuite>
